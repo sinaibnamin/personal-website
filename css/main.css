@@ -1095,10 +1095,11 @@ header .row {
 }
 header .top-bar {
 	display: block;
-	background: #000000;
+	background: #00000000;
 	position: absolute;
 	left: 90px;
 	top: 0;
+	width: 200px;
 }
 header .logo {
 	float: left;
@@ -1131,6 +1132,7 @@ header .logo a {
 	height: 40px;
 	display: block;
 	position: relative;
+	background: #000000;
 }
 .menu-toggle.is-clicked {
     width: 200px;
