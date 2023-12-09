@@ -2611,3 +2611,38 @@ footer .copyright span:last-child::after {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+
+.project-screenshot{
+	width: 100%;
+	max-width: 100%;
+	overflow: hidden;
+	height: 200px;
+	background: url(../images/projectscreenshot.jpg) no-repeat center top;
+	background-size: cover;
+}
+
+.project-desc > div{
+	text-align: left;
+}
+.project-desc  a{
+	color: #cc005f;
+}
+
+.justify-content-center{
+	justify-content: center;
+}
+
+.d-flex{
+	display: flex;
+}
+
+.flex-wrap{
+	flex-wrap: wrap;
+}
+
+@media (max-width:768px) {
+	.project-desc{
+		margin-top: 20px;
+	}
+}
