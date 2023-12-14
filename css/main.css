@@ -2268,6 +2268,7 @@ header .logo a {
 	padding-top: 12rem;
 	padding-bottom: 7.2rem;
 }
+
 #contact .section-intro h1 {
 	color: white;
 }
@@ -2645,4 +2646,22 @@ footer .copyright span:last-child::after {
 	.project-desc{
 		margin-top: 20px;
 	}
+}
+
+#portfolio {
+	background: #151515;
+	padding-top: 12rem;
+	padding-bottom: 7.2rem;
+}
+#portfolio h1
+{
+	color: #ffffff;
+}
+#portfolio .lead
+{
+	color: rgba(255, 255, 255, 0.7);
+}
+#portfolio .project-desc div
+{
+	color: #ffffff;
 }
